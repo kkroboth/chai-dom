@@ -73,6 +73,7 @@
       , 'expected ' + elToString(el) + ' to have class #{exp}'
       , 'expected ' + elToString(el) + ' not to have class #{exp}'
       , className
+      , el.classList
     )
   })
 
@@ -83,6 +84,7 @@
       , 'expected ' + elToString(el) + ' to have id #{exp}'
       , 'expected ' + elToString(el) + ' not to have id #{exp}'
       , id
+      , el.id
     )
   })
 
